@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Bootstrap</title>
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body style="background-color: #F1D99B !important;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 shadow-sm" style="background-color: #F1D99B !important;">
+        <div class="container-fluid " >
+            <div class="navbar-brand fw-bold" style ="color: #59688F !important;">👩🏻‍💻 Praktikum Bootstrap</div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link fw-bold active" aria-current="page" href="#"style ="color: #59688F !important;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#" style ="color: #59688F !important;">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#" style ="color: #59688F !important;">My Skill</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#" style ="color: #59688F !important;">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="home" class=" bg-gradient py-5" style="background-color: #59688F !important;">
+        <div class="container">
+        <div class="row align-items-center">
+
+        <div class="col-md-7 text-center text-md-start">
+            <span class="badge rounded-pill mb-3" style="background-color: #F1D99B !important; color: #53627d;">Semester 3</span>
+            <h2 class="mb-3" style="color: #F1D99B;">Halo, saya Nisriin Arafat Abdurrahman!</h2>
+            <p style="color: #F1D99B;">Website ini dibuat untuk memenuhi tugas praktikum pemrograman internet dengan menerapkan bootstrap</p>
+        </div>
+        <div class="col-md-5 text-center mx-auto">
+        <img src="ying.jpeg" alt="Ilustrasi mahasiswa sedang belajar coding" class="img-fluid" 
+         style="max-width: 480px; height: auto; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        </div>
+        </div>
+        </div>
+    </div>
+
+<!-- Profil Mahasiswa -->
+    <section id="tentang" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-3 mb-md-0">
+                    <div style="width: 180px; height: 180px; background-color: #daf0f7; border-radius: 50%; 
+                    margin: auto; display: flex; align-items: center; justify-content: center; font-size: 70px;">
+                        <img src="pororo.jpg" alt="Profile Image" style="width: 120%; height: auto; object-fit: cover; border-radius: 50%;">
+                    </div>
+                </div>
+                  <div class="col-md-8">
+                    <h2 style="color: #59688F !important;" class="mb-3">Saya adalah mahasiswa</h2>
+                    <p style="color: #53627d; line-height: 1.8;">Halo! Saya Nisriin Arafat Abdurrahman,
+                        mahasiswa Pendidikan Sistem dan Teknologi Informasi
+                        di UPI Kampus Purwakarta. Saya sedang belajar
+                        mengembangkan kemampuan pemrograman web. Selama mengikuti praktikum pemrograman internet, saya mulai mempelajari cara membuat website dari dasar. Saya belajar menggunakan HTML untuk menyusun struktur halaman, CSS untuk mengatur tampilan, JavaScript untuk menambahkan interaksi, dan Bootstrap untuk membantu membuat desain website yang lebih menarik dan responsif. Dari proses belajar ini, saya mulai memahami bagaimana setiap teknologi saling melengkapi dalam pembuatan sebuah website.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+ <!-- Skill Section -->
+     <div id="skill" class="container py-4">
+        <h2 class="text-center mb-4" style="color: #59688F !important;">My Learning Journey</h2>
+        <div class="row g-4">
+
+ <!-- card 1 -->
+            <div class="col-md-3">
+                <div class="card border-3 shadow-sm" style="border-color: #F1D99B;">
+                    <div class="card-body" style="background-color: #59688F !important;">
+                        <h5 class="card-title text-center" style="color: #F1D99B !important;">HTML🌐</h5>
+                        <p class="card-text" style="color: #F1D99B !important;">Saya mulai belajar membuat struktur dasar website menggunakan HTML, seperti menambahkan judul, paragraf, gambar, tautan, dan berbagai elemen lainnya.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="col-md-3">
+                <div class="card border-3 shadow-sm" style="border-color: #F1D99B;">
+                    <div class="card-body" style="background-color: #59688F !important;">
+                        <h5 class="card-title text-center" style="color: #F1D99B !important;">CSS🎨</h5>
+                        <p class="card-text" style="color: #F1D99B !important;">Saya belajar mengatur tampilan website menggunakan CSS, mulai dari memilih warna, mengatur ukuran teks, hingga menyesuaikan tata letak agar terlihat lebih menarik.</p>
+                    </div>
+                </div>
+            </div>
+
+             <!-- card 3 -->
+            <div class="col-md-3">
+                <div class="card border-3 shadow-sm" style="border-color: #F1D99B;">
+                    <div class="card-body" style="background-color: #59688F !important;">
+                        <h5 class="card-title text-center" style="color: #F1D99B !important;">Javascript⚙️</h5>
+                        <p class="card-text" style="color: #F1D99B !important;">Saya mulai mengenal JavaScript untuk membuat website lebih interaktif, seperti menambahkan fungsi pada tombol dan membuat halaman merespons tindakan pengguna.</p>
+                    </div>
+                </div>
+            </div>
+
+              <!-- card 4 -->
+            <div class="col-md-3">
+                <div class="card border-3 shadow-sm" style="border-color: #F1D99B;">
+                    <div class="card-body" style="background-color: #59688F !important;">
+                        <h5 class="card-title text-center" style="color: #F1D99B !important;">Bootstrap📱</h5>
+                        <p class="card-text" style="color: #F1D99B !important;">Saya mempelajari Bootstrap untuk membantu membuat tampilan website dengan lebih praktis, terutama dalam menyusun layout dan membuat tampilan yang menyesuaikan ukuran layar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+<!-- Kontak -->
+ <div id="contact" class="bg-light py-5" style="background-color: #F1D99B !important;">
+    <div class="container" >
+      <h2 class="text-center mb-4" style="color: #59688F !important;">Kontak Saya</h2>
+       <!-- Formulir -->
+            <form class="p-4 rounded shadow-sm mx-auto" style="max-width: 500px; background-color: #59688F  !important;">
+                <!-- Input Nama -->
+                <div class="mb-3">
+                    <label for="name" class="form-label" style="color: #F1D99B !important;">Nama</label>
+                    <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda"style="background-color: #F1D99B !important;" style="color: #59688F !important;">
+                </div>
+                <!-- Input Email -->
+                <div class="mb-3" >
+                    <label for="email" class="form-label" style="color: #F1D99B !important;">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" style="background-color: #F1D99B !important;" style="color: #59688F !important;">
+                </div>
+                <!-- Input Pesan -->
+                <div class="mb-3">
+                    <label for="message" class="form-label" style="color: #F1D99B !important;">Pesan</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Masukkan pesan Anda" style="background-color: #F1D99B !important;" style="color: #59688F !important;"></textarea>
+                </div>
+                <!-- Tombol Kirim -->
+                <div class="mb-3 text-center">
+                    <button onclick="tampilkanAlert()" type="submit" class="btn" style="color: #59688F !important; background-color: #F1D99B !important;">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+     <!-- Footer -->
+    <footer class="py-4 text-white" style="background-color: #59688F;">
+        <div class="container text-center">
+            <h6 class="fw-bold" style="color: #F1D99B;">Praktikum Bootstrap</h6>
+            <p class="mb-1" style="color: #F1D99B;">Belajar · Berkarya · Berkembang</p>
+             <div class="container">
+
+        <!-- Logo Media Sosial -->
+        <div class="d-flex justify-content-center gap-4 mb-3">
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram" style="color: #F1D99B; font-size: 25px;">
+            <i class="bi bi-instagram"></i>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/" target="_blank" aria-label="GitHub" style="color: #F1D99B; font-size: 25px;">
+            <i class="bi bi-github"></i>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn" style="color: #F1D99B; font-size: 25px;">
+            <i class="bi bi-linkedin"></i>
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/" target="_blank" aria-label="WhatsApp" style="color: #F1D99B; font-size: 25px;">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+     </div>
+            <small style="color: #F1D99B;">&copy; 2026 Praktikum Bootstrap. All rights reserved.</small>
+        </div>
+    </footer>
+    
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        function tampilkanAlert() {
+            Swal.fire({
+                title: 'Pesan Terkirim!',
+                text: 'Terima kasih telah menghubungi saya.',
+                icon: 'success',
+                confirmButtonText: 'OK'
+            });
+        }
+    </script>
+
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
